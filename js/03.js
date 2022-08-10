@@ -1,19 +1,20 @@
 // VARIABLES CON CONS
 
-let producto = 'Audifonos Gamer'; // Iniciar variable y asignarle un valor
+const producto = 'Audifonos Gamer'; // Iniciar variable y asignarle un valor
 
-let disponible; // Iniciar variable sin asignar valor
+// const disponible; // Iniciar variable sin asignar valor , no se puede en const
 
-// producto = true; // Reasignar un valor a la misma variable antes utilizada
+// producto = 'Mousepad'; // Reasignar un valor a la misma variable antes utilizada tampoco se puede
 
 
-let producto1 = 'Computadora',  // Iniciar mas de una variable en una misma linea, separadas por una ","
-    disponible1 = true,
+const producto1 = 'Computadora',  // Iniciar mas de una variable en una misma linea, separadas por una ","
+    disponible1 = true, 
     categoria = 'Computadoras';
 
 // ESTILOS DE VARIABLES MAS UTILIZADOS
 
-let nombre_produco = 'Monitor HD'; // UNDERSCORE
-let nombreProducto = 'Monitor HD'; // CAMELCASE     Mas Utilizado!
-let NombreProducto = 'Monitor HD'; // PASCALCASE
-let nombreproducto = 'Monitor HD'; // LOWERCASE
+const nombre_produco = 'Monitor HD'; // UNDERSCORE
+const nombreProducto = 'Monitor HD'; // CAMELCASE     Mas Utilizado!
+const NombreProducto = 'Monitor HD'; // PASCALCASE
+const nombreproducto = 'Monitor HD'; // LOWERCASE
+
