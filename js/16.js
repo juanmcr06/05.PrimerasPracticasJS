@@ -24,4 +24,28 @@ meses.forEach(function(mes) {
     if (mes== 'Marzo') {
         console.log('Marzo está disponible!!!')
     }
-})
+});
+
+// INCLUDES 
+
+let resultado = meses.includes('Enero');   // Ideal para objetos unidimensionales
+
+// SOME
+
+resultado = carrito.some(function(producto) {  // Ideal para arreglos de objetos 
+    return producto.nombre === 'Celular';
+});
+
+// REDUCE
+
+resultado = carrito.reduce(function(total, producto){   // Suma todos los precios de los productos
+    return total + producto.precio
+}, 0);
+
+// FILTER 
+
+resultado = carrito.filter(function(producto) {  // Sirve para filtrar elementos de un array de objetos
+    return producto.precio > 400
+});
+
+console.log(resultado);
