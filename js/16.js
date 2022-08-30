@@ -15,7 +15,7 @@ const carrito = [
 
 // FOREACH
 
-meses.forEach(function(mes) {
+meses.forEach(function(mes) {                // Se ejecuta una vez por cada elemento del arreglo
     console.log(mes)
 
 });  // EJEMPLO
