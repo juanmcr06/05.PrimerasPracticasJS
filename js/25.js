@@ -47,10 +47,11 @@
 
 // DO WHILE
 
-let i = 0;
+let i = 0; // Valor inicial
 
 do {
-
+    console.log(i)
+    i++    // Incremento
 }
 
-while ()
+while ( i < 10);  // Condicion
